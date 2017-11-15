@@ -1,0 +1,219 @@
+{
+  "version": "0.1",
+  "id": "react_cardList",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4012/2002/index.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "reactComponent_list": "../reactComponent_list/index.json"
+  },
+  "chineseName": "卡片列表",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "TABLE"
+        },
+        "locators": [
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper TABLE"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/TABLE[1]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 601,
+              "height": 351
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表格组件、卡片列表组件案例"
+              ],
+              "visText": [
+                "表格组件、卡片列表组件案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表格组件、卡片列表组件案例"
+              ],
+              "visText": [
+                "表格组件、卡片列表组件案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 33
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control1"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1"
+      ],
+      "anchors": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "reactComponent_list"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl1",
+          "controlId": "control1",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl1",
+                "onGetTemplate": "getTemplate_uiControl1"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl0",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl0",
+                "onGetTemplate": "getTemplate_uiControl0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          ""
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/4012/2002/index.html",
+          "studio.static.enterplorer.com/public/cases/4012/2002/index.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "contentWrapper"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "-/DIV/TABLE",
+            "DIV/TABLE/TBODY",
+            "DIV/TABLE/THEAD",
+            "TABLE/TBODY/TR",
+            "TABLE/THEAD/TR",
+            "TBODY/TR/TD",
+            "THEAD/TR/TD"
+          ]
+        ]
+      }
+    }
+  }
+}

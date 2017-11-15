@@ -1,0 +1,441 @@
+{
+  "version": "0.1",
+  "id": "component_modal",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0014/0013/c13.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_modal_modal": "../component_modal_modal/index.json",
+    "component_index": "../component_index/index.json"
+  },
+  "chineseName": "模态框案例",
+  "description": "component_modal",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示"
+              ],
+              "visText": [
+                "显示"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示"
+              ],
+              "visText": [
+                "显示"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.show"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 54,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "DIV"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::DIV[@id=\"textDiv\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper DIV"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "modal",
+      "roles": "element,modal",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "模态框案例"
+              ],
+              "visText": [
+                "模态框案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "模态框案例"
+              ],
+              "visText": [
+                "模态框案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 39
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control2"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2"
+      ],
+      "anchors": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control0",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow2": {
+      "fromContextId": "context0",
+      "fromControlId": "control1",
+      "toContexts": [
+        {
+          "toContextId": "context1",
+          "toModelId": "component_modal_modal"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl4",
+          "controlId": "control2",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl4",
+                "onGetTemplate": "getTemplate_uiControl4"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl2",
+                  "controlId": "control0",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl3",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "modal",
+                    "type": "modal",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "模态框案例"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0013/c13.html",
+          "studio.static.enterplorer.com/public/cases/0014/0013/c13.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          [
+            "doc-confirm-toggle",
+            "doc-modal-",
+            "my-alert",
+            "my-confirm"
+          ],
+          [
+            "textDiv"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "am-btn am-btn-primary",
+            "am-btn am-btn-warning",
+            "am-clo",
+            "am-modal am-modal-alert",
+            "am-modal am-modal-confirm",
+            "am-modal am-modal-no-btn",
+            "am-modal-bd",
+            "am-modal-btn",
+            "am-modal-dialog",
+            "am-modal-footer",
+            "am-modal-hd",
+            "contentWrapper",
+            "e am-clo",
+            "e-",
+            "pin"
+          ],
+          [
+            "am-btn am-btn-primary",
+            "am-btn am-btn-warning",
+            "am-clo",
+            "am-dimmer am-active",
+            "am-modal am-modal-alert am-modal-active",
+            "am-modal am-modal-confirm",
+            "am-modal am-modal-no-btn",
+            "am-modal-bd",
+            "am-modal-btn",
+            "am-modal-dialog",
+            "am-modal-footer",
+            "am-modal-hd",
+            "contentWrapper",
+            "e am-clo",
+            "e-",
+            "pin"
+          ],
+          [
+            "btn btn-primary ",
+            "btn btn-primary hide",
+            "contentWrapper",
+            "how"
+          ]
+        ],
+        "context1": [
+          [
+            "am-modal-bd",
+            "am-modal-btn",
+            "am-modal-footer",
+            "am-modal-hd"
+          ],
+          [
+            "btn btn-primary hide"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/A",
+            "DIV/DIV/BUTTON",
+            "DIV/DIV/DIV",
+            "DIV/DIV/SPAN"
+          ],
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/BUTTON",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/BUTTON",
+            "DIV/DIV/SPAN"
+          ]
+        ],
+        "context1": [
+          [
+            "-/-/DIV",
+            "-/DIV/SPAN"
+          ],
+          [
+            "-/-/BUTTON",
+            "-/-/SPAN"
+          ]
+        ]
+      }
+    }
+  }
+}

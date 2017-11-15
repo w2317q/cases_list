@@ -1,0 +1,52 @@
+{
+  "replace": [
+    {
+      "type": "png",
+      "remote": [
+        "http:\\/\\/192\\.168\\.2\\.28\\:8765\\/public\\/cases\\/4011\\/4001\\/logo.*"
+      ],
+      "local": "override.png",
+      "time": 1471416853315
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/192\\.168\\.2\\.28\\:8765\\/public\\/cases\\/4011\\/4002\\/test\\.js"
+      ],
+      "local": "test.js",
+      "time": 1472107344229
+    },
+    {
+      "type": "css",
+      "remote": [
+        "http:\\/\\/192\\.168\\.2\\.28\\:8765\\/public\\/cases\\/4011\\/4003\\/test\\.css"
+      ],
+      "local": "test.css",
+      "time": 1472106679181
+    },
+    {
+      "type": "png",
+      "remote": [
+        "https:\\/\\/a248\\.e\\.akamai\\.net\\/assets\\.github\\.com\\/img\\/.*"
+      ],
+      "local": "swf.png",
+      "time": 1471412575791
+    },
+    {
+      "type": "js",
+      "remote": [
+        "http:\\/\\/192\\.168\\.2\\.28:8765\\/public\\/cases\\/4011\\/4015\\/index\\.js"
+      ],
+      "local": "top2.js",
+      "time": 1472023420060
+    },
+    {
+      "type": "html",
+      "remote": [
+        "http:\\/\\/192\\.168\\.2\\.28:8765\\/public\\/cases\\/4011\\/4017\\/index\\.html"
+      ],
+      "local": "4017.html",
+      "time": 1472091536250
+    }
+  ]
+}

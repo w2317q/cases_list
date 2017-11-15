@@ -1,0 +1,483 @@
+{
+  "version": "0.1",
+  "id": "component_content",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0014/0005/c5.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_index": "../component_index/index.json"
+  },
+  "chineseName": "文本案例",
+  "description": "component_content",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "h1文本"
+              ],
+              "visText": [
+                "h1文本"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "h1文本"
+              ],
+              "visText": [
+                "h1文本"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              2
+            ],
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 660,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "h1文本"
+              ],
+              "visText": [
+                "h1文本"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "h1文本"
+              ],
+              "visText": [
+                "h1文本"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              2
+            ],
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 660,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "h1文本"
+              ],
+              "visText": [
+                "h1文本"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "h1文本"
+              ],
+              "visText": [
+                "h1文本"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              2
+            ],
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 660,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "文本案例"
+              ],
+              "visText": [
+                "文本案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "文本案例"
+              ],
+              "visText": [
+                "文本案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control3"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2",
+        "control3"
+      ],
+      "anchors": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl8",
+          "controlId": "control3",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl8",
+                "onGetTemplate": "getTemplate_uiControl8"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl2",
+                  "display": {
+                    "type": "accordion",
+                    "adapterId": "accordion",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": [
+                    {
+                      "id": "uiControl2item",
+                      "display": {
+                        "title": "简单拖拽",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl3",
+                          "controlId": "control0",
+                          "display": {
+                            "adapterId": "content",
+                            "type": "content",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl4",
+                      "display": {
+                        "title": "修改文本",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl6",
+                          "controlId": "control1",
+                          "display": {
+                            "adapterId": "content",
+                            "type": "content",
+                            "text": "内容已被修改",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl5",
+                      "display": {
+                        "title": "修改 Class",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl7",
+                          "controlId": "control2",
+                          "display": {
+                            "adapterId": "content",
+                            "type": "content",
+                            "class": "content-demo",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "文本案例"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0005/c5.html",
+          "studio.static.enterplorer.com/public/cases/0014/0005/c5.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "contentWrapper"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/DIV",
+            "DIV/DIV/H1",
+            "DIV/DIV/H2",
+            "DIV/DIV/H3",
+            "DIV/DIV/H4",
+            "DIV/DIV/H5",
+            "DIV/DIV/H6",
+            "DIV/DIV/P",
+            "DIV/DIV/SPAN"
+          ]
+        ]
+      }
+    }
+  }
+}

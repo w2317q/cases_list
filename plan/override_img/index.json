@@ -1,0 +1,349 @@
+{
+  "version": "0.1",
+  "id": "override_img",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4011/4001/4001.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "advance_list": "../advance_list/index.json"
+  },
+  "chineseName": "资源替换图片",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "图片资源重载"
+              ],
+              "visText": [
+                "图片资源重载"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "图片资源重载"
+              ],
+              "visText": [
+                "图片资源重载"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "IMG"
+        },
+        "locators": [
+          {
+            "id": "img/@src",
+            "prob": 1,
+            "value": {
+              "pathname": "/public/cases/4011/4001/logo.png"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper IMG.logo"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/IMG[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 400,
+              "height": 400
+            }
+          }
+        ]
+      },
+      "roles": "element,image,button",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "图片资源重载"
+              ],
+              "visText": [
+                "图片资源重载"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "图片资源重载"
+              ],
+              "visText": [
+                "图片资源重载"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "图片资源重载"
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "IMG"
+        },
+        "locators": [
+          {
+            "id": "img/@src",
+            "prob": 1,
+            "value": {
+              "pathname": "/public/cases/4011/4001/logo.png"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper IMG.logo"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/IMG[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 400,
+              "height": 400
+            }
+          }
+        ]
+      },
+      "roles": "element,image,button",
+      "text": ""
+    }
+  },
+  "contexts": {
+    "context2": {
+      "controls": [
+        "control0",
+        "control1"
+      ],
+      "anchors": [
+        "control2",
+        "control3"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "advance_list"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page2": {
+      "contextId": "context2",
+      "layout": [
+        {
+          "id": "uiControl3",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl3",
+                "onGetTemplate": "getTemplate_uiControl3"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl4",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl4body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl5",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "image_link",
+                    "type": "image",
+                    "class": "css-override",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context2": [
+          "图片资源重载"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context2": [
+          "192.168.2.28:8765/public/cases/4011/4001/4001.html",
+          "studio.static.enterplorer.com/public/cases/4011/4001/4001.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context2": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context2": [
+          [
+            "contentWrapper",
+            "logo"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context2": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/IMG"
+          ]
+        ]
+      }
+    }
+  }
+}

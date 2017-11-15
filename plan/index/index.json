@@ -1,0 +1,722 @@
+{
+  "version": "0.1",
+  "id": "index",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0015/",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_index": "../component_index/index.json",
+    "advance_list": "../advance_list/index.json",
+    "override_img": "../override_img/index.json",
+    "override_js": "../override_js/index.json",
+    "override_css": "../override_css/index.json",
+    "attachEvent": "../attachEvent/index.json",
+    "inner_outer": "../inner_outer/index.json",
+    "UEditor": "../UEditor/index.json",
+    "swfUpload": "../swfUpload/index.json",
+    "too_much_data": "../too_much_data/index.json",
+    "extensionComponent_list": "../extensionComponent_list/index.json",
+    "reactComponent_list": "../reactComponent_list/index.json"
+  },
+  "chineseName": "案例列表",
+  "description": "index",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "基本组件案例列表"
+              ],
+              "visText": [
+                "基本组件案例列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "基本组件案例列表"
+              ],
+              "visText": [
+                "基本组件案例列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[1]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "基本组件案例列表"
+              ],
+              "visText": [
+                "基本组件案例列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "基本组件案例列表"
+              ],
+              "visText": [
+                "基本组件案例列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[1]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element,link",
+      "text": "基本组件案例列表"
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              2
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[2]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "扩展组件"
+              ],
+              "visText": [
+                "扩展组件"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "扩展组件"
+              ],
+              "visText": [
+                "扩展组件"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              5
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[3]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control4": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "React组件列表"
+              ],
+              "visText": [
+                "React组件列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "React组件列表"
+              ],
+              "visText": [
+                "React组件列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              3,
+              5
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[4]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control26_C5b5ZT": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "其他测试列表"
+              ],
+              "visText": [
+                "其他测试列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "其他测试列表"
+              ],
+              "visText": [
+                "其他测试列表"
+              ]
+            }
+          },
+          {
+            "id": "a/@href",
+            "prob": 2,
+            "ordinal": [
+              3,
+              4
+            ],
+            "value": {
+              "pathname": "/public/cases/0017/index.html"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              4,
+              5
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[5]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false,
+      "frameXPath": ""
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control2",
+        "control3",
+        "control4",
+        "control26_C5b5ZT"
+      ],
+      "anchors": [
+        "control1"
+      ],
+      "urlAnchor": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control0",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "component_index"
+        }
+      ]
+    },
+    "flow2": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control2",
+      "toContexts": [
+        {
+          "toContextId": "context1",
+          "toModelId": "advance_list"
+        },
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow3": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control3",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "extensionComponent_list"
+        }
+      ]
+    },
+    "flow4": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control4",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "reactComponent_list"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl0",
+          "display": {
+            "class": "navbar navbar-primary",
+            "title": "案例列表",
+            "type": "header",
+            "adapterId": "header",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": []
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl2",
+                  "controlId": "control0",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl3",
+                  "controlId": "control2",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl4",
+                  "controlId": "control3",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl5",
+                  "controlId": "control4",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl40_07KNT4",
+                  "controlId": "control26_C5b5ZT",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "文本案例",
+          "头部案例",
+          "案例列表",
+          "基本组件案例列表"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0012/",
+          "192.168.2.28:8765/public/cases/0014/0012/index.html",
+          "192.168.2.28:8765/public/cases/0014/",
+          "192.168.2.28:8765/public/cases/0014/index.html",
+          "192.168.2.28:8765/public/cases/0015/",
+          "studio.static.enterplorer.com/public/cases/0015/"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "am-li",
+            "contentWrapper",
+            "t"
+          ],
+          [
+            "am-list",
+            "contentWrapper"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/DIV/H1",
+            "-/DIV/UL",
+            "DIV/UL/LI",
+            "UL/LI/A"
+          ],
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/H1",
+            "-/DIV/UL",
+            "DIV/UL/LI",
+            "UL/LI/A"
+          ]
+        ]
+      }
+    }
+  }
+}

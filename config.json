@@ -1,0 +1,10 @@
+{
+  "menu": [
+    {
+      "name": "案例列表",
+      "app_id": "cases_list",
+      "icon": "local/img/seal.png",
+      "url": "http://studio.static.enterplorer.com/public/cases/0015/"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "version": "0.1",
+  "id": "activex",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4011/4014/4014.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "advance_list": "../advance_list/index.json"
+  },
+  "chineseName": "activex",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "P"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Let AJAX change this text."
+              ],
+              "visText": [
+                "Let AJAX change this text."
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Let AJAX change this text."
+              ],
+              "visText": [
+                "Let AJAX change this text."
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::P[@id=\"changedP\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper P"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/P[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 660,
+              "height": 18
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": true
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Change Content"
+              ],
+              "visText": [
+                "Change Content"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Change Content"
+              ],
+              "visText": [
+                "Change Content"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "button"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 109,
+              "height": 29
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ActiveX"
+              ],
+              "visText": [
+                "ActiveX"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ActiveX"
+              ],
+              "visText": [
+                "ActiveX"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 37
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control2"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ActiveX"
+              ],
+              "visText": [
+                "ActiveX"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ActiveX"
+              ],
+              "visText": [
+                "ActiveX"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 37
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "ActiveX"
+    },
+    "control4": {
+      "location": {
+        "data": {
+          "tagName": "P"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Let AJAX change this text."
+              ],
+              "visText": [
+                "Let AJAX change this text."
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Let AJAX change this text."
+              ],
+              "visText": [
+                "Let AJAX change this text."
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::P[@id=\"changedP\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper P"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/P[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 660,
+              "height": 18
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "<p style=\"white-space:normal\">Let AJAX change this text.</p>"
+    }
+  },
+  "contexts": {
+    "context2": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2"
+      ],
+      "anchors": [
+        "control3",
+        "control4"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "advance_list"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context2",
+      "fromAction": "click",
+      "fromControlId": "control1",
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page2": {
+      "contextId": "context2",
+      "layout": [
+        {
+          "id": "uiControl15",
+          "controlId": "control2",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl15",
+                "onGetTemplate": "getTemplate_uiControl15"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl12",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl12body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl13",
+                  "controlId": "control0",
+                  "display": {
+                    "adapterId": "content",
+                    "type": "content",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl14",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context2": [
+          "ActiveX"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context2": [
+          "192.168.2.28:8765/public/cases/4011/4014/4014.html",
+          "studio.static.enterplorer.com/public/cases/4011/4014/4014.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context2": [
+          [
+            "changedP"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context2": [
+          [
+            "contentWrapper"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context2": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/BUTTON",
+            "DIV/DIV/P"
+          ]
+        ]
+      }
+    }
+  }
+}

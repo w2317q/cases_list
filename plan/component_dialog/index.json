@@ -1,0 +1,1474 @@
+{
+  "version": "0.1",
+  "id": "component_dialog",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0014/0016/c16.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_index": "../component_index/index.json"
+  },
+  "chineseName": "对话框案例",
+  "description": "component_dialog",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示1"
+              ],
+              "visText": [
+                "显示1"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示1"
+              ],
+              "visText": [
+                "显示1"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.show1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 61.796875,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示2"
+              ],
+              "visText": [
+                "显示2"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示2"
+              ],
+              "visText": [
+                "显示2"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.show2"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/BUTTON[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 61.796875,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示3"
+              ],
+              "visText": [
+                "显示3"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示3"
+              ],
+              "visText": [
+                "显示3"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.show3"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/BUTTON[3]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 61.796875,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control4": {
+      "location": {
+        "data": {
+          "tagName": "SPAN"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              3
+            ],
+            "value": "DIV.contentWrapper SPAN"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/SPAN[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 343.78125,
+              "height": 16
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    },
+    "control5": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              0,
+              3
+            ],
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.hide1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 54,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control6": {
+      "location": {
+        "data": {
+          "tagName": "DIV"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              3
+            ],
+            "value": "DIV.contentWrapper DIV"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[2]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "dialog",
+      "roles": "element,dialog",
+      "monitored": false
+    },
+    "control7": {
+      "location": {
+        "data": {
+          "tagName": "SPAN"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容2，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              3
+            ],
+            "value": "DIV.contentWrapper SPAN"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/SPAN[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 343.78125,
+              "height": 16
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    },
+    "control8": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              1,
+              3
+            ],
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.hide2"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 54,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control9": {
+      "location": {
+        "data": {
+          "tagName": "DIV"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              3
+            ],
+            "value": "DIV.contentWrapper DIV"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[3]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "dialog",
+      "roles": "element,dialog",
+      "monitored": true
+    },
+    "control10": {
+      "location": {
+        "data": {
+          "tagName": "SPAN"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容3，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              3
+            ],
+            "value": "DIV.contentWrapper SPAN"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[3]/SPAN[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 343.78125,
+              "height": 16
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    },
+    "control11": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              2,
+              3
+            ],
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.hide3"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[3]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 54,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control13": {
+      "location": {
+        "data": {
+          "tagName": "DIV"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ],
+              "visText": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看 隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              3
+            ],
+            "value": "DIV.contentWrapper DIV"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "dialog",
+      "roles": "element,dialog",
+      "monitored": false
+    },
+    "control14": {
+      "location": {
+        "data": {
+          "tagName": "SPAN"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ],
+              "visText": [
+                "我是内容1，我被隐藏了，只有点击显示按钮才可以查看"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              3
+            ],
+            "value": "DIV.contentWrapper SPAN"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/SPAN[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 343.78125,
+              "height": 16
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    },
+    "control15": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              0,
+              3
+            ],
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "隐藏"
+              ],
+              "visText": [
+                "隐藏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.hide1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 54,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control16": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "对话框案例"
+              ],
+              "visText": [
+                "对话框案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "对话框案例"
+              ],
+              "visText": [
+                "对话框案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 39
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control16"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control17": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示2"
+              ],
+              "visText": [
+                "显示2"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "显示2"
+              ],
+              "visText": [
+                "显示2"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.btn.btn-primary.show2"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/BUTTON[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 61.796875,
+              "height": 34
+            }
+          }
+        ]
+      },
+      "roles": "element,button",
+      "text": "显示2"
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2",
+        "control4",
+        "control5",
+        "control6",
+        "control7",
+        "control8",
+        "control9",
+        "control10",
+        "control11",
+        "control13",
+        "control14",
+        "control15",
+        "control16"
+      ],
+      "anchors": [
+        "control17"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control0",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow2": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control5",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow3": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control1",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow4": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control6",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow5": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control8",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow6": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control2",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow7": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control11",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow8": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control15",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl15",
+          "controlId": "control16",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl15",
+                "onGetTemplate": "getTemplate_uiControl15"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl2",
+                  "controlId": "control0",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "text": "confirm",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl6",
+                  "controlId": "control13",
+                  "display": {
+                    "presentation": "confirm",
+                    "adapterId": "dialog",
+                    "type": "dialog",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": [
+                    {
+                      "id": "uiControl6body",
+                      "display": {
+                        "type": "dialogBody",
+                        "adapterId": "dialogBody",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl7",
+                          "controlId": "control14",
+                          "display": {
+                            "adapterId": "content",
+                            "type": "content",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl6footer",
+                      "display": {
+                        "type": "dialogFooter",
+                        "adapterId": "dialogFooter",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl14",
+                          "controlId": "control15",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "uiControl3",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "text": "actions",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl8",
+                  "controlId": "control6",
+                  "display": {
+                    "presentation": "actions",
+                    "adapterId": "dialog",
+                    "type": "dialog",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": [
+                    {
+                      "id": "uiControl8body",
+                      "display": {
+                        "type": "dialogBody",
+                        "adapterId": "dialogBody",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl9",
+                          "controlId": "control7",
+                          "display": {
+                            "adapterId": "content",
+                            "type": "content",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl8footer",
+                      "display": {
+                        "type": "dialogFooter",
+                        "adapterId": "dialogFooter",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl10",
+                          "controlId": "control8",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "uiControl4",
+                  "controlId": "control2",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "text": "popup",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl11",
+                  "controlId": "control9",
+                  "display": {
+                    "presentation": "popup",
+                    "adapterId": "dialog",
+                    "type": "dialog",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": [
+                    {
+                      "id": "uiControl11body",
+                      "display": {
+                        "type": "dialogBody",
+                        "adapterId": "dialogBody",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl12",
+                          "controlId": "control10",
+                          "display": {
+                            "adapterId": "content",
+                            "type": "content",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl13",
+                          "controlId": "control11",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl11footer",
+                      "display": {
+                        "type": "dialogFooter",
+                        "adapterId": "dialogFooter",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "对话框案例"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0016/c16.html",
+          "studio.static.enterplorer.com/public/cases/0014/0016/c16.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          [
+            "textDiv"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "btn btn-primary ",
+            "btn btn-primary hide",
+            "contentWrapper",
+            "how"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/BUTTON",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/BUTTON",
+            "DIV/DIV/SPAN"
+          ]
+        ]
+      }
+    }
+  }
+}

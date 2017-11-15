@@ -1,0 +1,62 @@
+{
+  "type": "adapter",
+  "name": "案例列表",
+  "default_url": "http://studio.static.enterplorer.com/public/cases/0015/",
+  "scope": "cases_list",
+  "useAppMenu": true,
+  "start_url": "enterplorer://cases_list/local/index.html",
+  "runtime_version": "^10.1.30",
+  "description": "",
+  "version": "",
+  "adapter_urls": [
+    {
+      "title": "cases_list",
+      "url": "adapter://cases_list/plan/index/index.json",
+      "matcher": [
+        "http:\\/\\/studio\\.static\\.enterplorer\\.com\\/public\\/cases\\/0015.*"
+      ],
+      "demo": [
+        "http://studio.static.enterplorer.com/public/cases/0015/",
+        "http://studio.static.enterplorer.com/public/cases/0015/index.html"
+      ]
+    }
+  ],
+  "override_urls": [
+    {
+      "origin_url": [
+        "http:\\/\\/studio\\.static\\.enterplorer\\.com\\/public\\/cases\\/4011\\/4001\\/logo.*"
+      ],
+      "target_url": "override/override.png"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/studio\\.static\\.enterplorer\\.com\\/public\\/cases\\/4011\\/4002\\/test\\.js"
+      ],
+      "target_url": "override/test.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/studio\\.static\\.enterplorer\\.com\\/public\\/cases\\/4011\\/4003\\/test\\.css"
+      ],
+      "target_url": "override/test.css"
+    },
+    {
+      "origin_url": [
+        "https:\\/\\/a248\\.e\\.akamai\\.net\\/assets\\.github\\.com\\/img\\/.*"
+      ],
+      "target_url": "override/swf.png"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/studio\\.static\\.enterplorer\\.com\\/public\\/cases\\/4011\\/4015\\/index\\.js"
+      ],
+      "target_url": "override/top2.js"
+    },
+    {
+      "origin_url": [
+        "http:\\/\\/studio\\.static\\.enterplorer\\.com\\/public\\/cases\\/4011\\/4017\\/index\\.html"
+      ],
+      "target_url": "override/4017.html"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "version": "0.1",
+  "id": "component_time",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0014/0004/c4.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_index": "../component_index/index.json"
+  },
+  "chineseName": "日期案例",
+  "description": "component_time",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "value": {
+              "text": [
+                "2016-07-05 16:05"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "value": {
+              "text": [
+                "2016-07-05 16:05"
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::INPUT[@id=\"datetimepicker\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper INPUT.am-form-field"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "text"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 37
+            }
+          }
+        ]
+      },
+      "intendedRole": "datepicker",
+      "roles": "element,datepicker,textbox",
+      "monitored": true
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "value": {
+              "text": [
+                "2016-07-05 16:05"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "value": {
+              "text": [
+                "2016-07-05 16:05"
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::INPUT[@id=\"datetimepicker\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper INPUT.am-form-field"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "text"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 37
+            }
+          }
+        ]
+      },
+      "intendedRole": "datepicker",
+      "roles": "element,datepicker,textbox",
+      "monitored": true
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "日期案例"
+              ],
+              "visText": [
+                "日期案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "日期案例"
+              ],
+              "visText": [
+                "日期案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control2"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2"
+      ],
+      "anchors": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl7",
+          "controlId": "control2",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl7",
+                "onGetTemplate": "getTemplate_uiControl7"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl3",
+                  "display": {
+                    "type": "accordion",
+                    "adapterId": "accordion",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": [
+                    {
+                      "id": "uiControl3item",
+                      "display": {
+                        "title": "简单拖拽",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl2",
+                          "controlId": "control0",
+                          "display": {
+                            "adapterId": "datepicker",
+                            "type": "datepicker",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl4",
+                      "display": {
+                        "title": "修改默认时间",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl5",
+                          "controlId": "control1",
+                          "display": {
+                            "adapterId": "datepicker",
+                            "type": "datepicker",
+                            "date": "2016-02-05 16:05",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "日期案例"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0004/c4.html",
+          "studio.static.enterplorer.com/public/cases/0014/0004/c4.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          [
+            "datetimepicker"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "am-form-field",
+            "clear",
+            "contentWrapper",
+            "datetimepicker datetimepicker-dropdown-bottom-right dropdown-menu",
+            "datetimepicker-day",
+            "datetimepicker-hour",
+            "datetimepicker-minute",
+            "datetimepicker-month",
+            "datetimepicker-year",
+            "day",
+            "day active",
+            "day new",
+            "day old",
+            "dow",
+            "ed",
+            "glyphicon icon-arrow-left",
+            "glyphicon icon-arrow-right",
+            "hour",
+            "hour active",
+            "minute",
+            "minute active",
+            "month",
+            "month active",
+            "next",
+            "prev",
+            "table-conden",
+            "today",
+            "witch",
+            "year",
+            "year active",
+            "year old"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/INPUT-text",
+            "DIV/DIV/TABLE",
+            "DIV/TABLE/TBODY",
+            "DIV/TABLE/TFOOT",
+            "DIV/TABLE/THEAD",
+            "TABLE/TBODY/TR",
+            "TABLE/TFOOT/TR",
+            "TABLE/THEAD/TR",
+            "TBODY/TR/TD",
+            "TFOOT/TR/TH",
+            "THEAD/TR/TH",
+            "TR/TD/SPAN",
+            "TR/TH/I"
+          ]
+        ]
+      }
+    }
+  }
+}

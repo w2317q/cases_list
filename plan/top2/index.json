@@ -1,0 +1,320 @@
+{
+  "version": "0.1",
+  "id": "top2",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4011/4015/index.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "advance_list": "../advance_list/index.json"
+  },
+  "chineseName": "top案例2",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例2"
+              ],
+              "visText": [
+                "top案例2"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例2"
+              ],
+              "visText": [
+                "top案例2"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例2"
+              ],
+              "visText": [
+                "top案例2"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例2"
+              ],
+              "visText": [
+                "top案例2"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "top案例2"
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例2"
+              ],
+              "visText": [
+                "top案例2"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例2"
+              ],
+              "visText": [
+                "top案例2"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "content": true,
+      "monitored": false
+    }
+  },
+  "contexts": {
+    "context2": {
+      "controls": [
+        "control0",
+        "control2"
+      ],
+      "anchors": [
+        "control1"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "advance_list"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page2": {
+      "contextId": "context2",
+      "layout": [
+        {
+          "id": "uiControl0",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl0",
+                "onGetTemplate": "getTemplate_uiControl0"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl3",
+                  "controlId": "control2",
+                  "display": {
+                    "adapterId": "content",
+                    "type": "content",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context2": [
+          "top"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context2": [
+          "192.168.2.28:8765/public/cases/4011/4015/index.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context2": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context2": [
+          [
+            "contentWrapper"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context2": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR"
+          ]
+        ]
+      }
+    }
+  }
+}

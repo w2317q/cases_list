@@ -1,0 +1,1582 @@
+{
+  "version": "0.1",
+  "id": "component_checkbox",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0014/0003/c3.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_index": "../component_index/index.json"
+  },
+  "chineseName": "多选按钮案例",
+  "description": "component_checkbox",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[3]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control4": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control5": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[3]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control6": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": false
+    },
+    "control7": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": false
+    },
+    "control8": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[3]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control9": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox1"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control10": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox2"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control11": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": {
+              "text": [
+                "checkbox3"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 2,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "descendant::INPUT[@name=\"yunshipei\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              6
+            ],
+            "value": "DIV.contentWrapper INPUT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[3]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "checkbox"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 12,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "intendedRole": "checkbox",
+      "roles": "element,checkbox",
+      "monitored": true
+    },
+    "control12": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "多选按钮案例"
+              ],
+              "visText": [
+                "多选按钮案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "多选按钮案例"
+              ],
+              "visText": [
+                "多选按钮案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control12"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control13": {
+      "location": {
+        "data": {
+          "tagName": "P"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "不可选的多选按钮"
+              ],
+              "visText": [
+                "不可选的多选按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "不可选的多选按钮"
+              ],
+              "visText": [
+                "不可选的多选按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              2
+            ],
+            "value": "DIV.contentWrapper P"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/P[2]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 660,
+              "height": 22
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "<p style=\"white-space:normal\">不可选的多选按钮</p>"
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2",
+        "control3",
+        "control4",
+        "control5",
+        "control6",
+        "control7",
+        "control8",
+        "control9",
+        "control10",
+        "control11",
+        "control12"
+      ],
+      "anchors": [
+        "control13"
+      ],
+      "urlAnchor": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control7",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow2": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control8",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow22_T3AWag": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control1",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow23_W9x7Jf": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control2",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow24_qHI4FG": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control6",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow25_FdtH7R": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control3",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow26_HAXhU3": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control4",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow27_2EZA5Z": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control5",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow28_bM51tJ": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control0",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl18",
+          "controlId": "control12",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl18",
+                "onGetTemplate": "getTemplate_uiControl18"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl2",
+                  "display": {
+                    "type": "accordion",
+                    "adapterId": "accordion",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": [
+                    {
+                      "id": "uiControl2item",
+                      "display": {
+                        "title": "普通拉取",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl3",
+                          "controlId": "control0",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl4",
+                          "controlId": "control1",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl5",
+                          "controlId": "control2",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl6",
+                      "display": {
+                        "title": "修改标签",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl9",
+                          "controlId": "control3",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "text": "我被修改了",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl10",
+                          "controlId": "control4",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "checked": false,
+                            "text": "我也被修改了",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl11",
+                          "controlId": "control5",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "text": "我也一样被修改了",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl7",
+                      "display": {
+                        "title": "默认勾选",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl12",
+                          "controlId": "control6",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl13",
+                          "controlId": "control7",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "checked": true,
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl14",
+                          "controlId": "control8",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "checked": true,
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl8",
+                      "display": {
+                        "title": "禁止选取",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl15",
+                          "controlId": "control9",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "disabled": true,
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl16",
+                          "controlId": "control10",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "disabled": true,
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl17",
+                          "controlId": "control11",
+                          "display": {
+                            "adapterId": "checkbox",
+                            "type": "checkbox",
+                            "disabled": true,
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "多选按钮案例"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0003/c3.html",
+          "studio.static.enterplorer.com/public/cases/0014/0003/c3.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "abled-dom",
+            "contentWrapper",
+            "di"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/INPUT-checkbox",
+            "DIV/DIV/P"
+          ]
+        ]
+      }
+    }
+  }
+}

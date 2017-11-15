@@ -1,0 +1,243 @@
+{
+  "version": "0.1",
+  "id": "react_tree",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4012/2004/index.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "reactComponent_list": "../reactComponent_list/index.json"
+  },
+  "chineseName": "树形组件",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "树形组件案例"
+              ],
+              "visText": [
+                "树形组件案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "树形组件案例"
+              ],
+              "visText": [
+                "树形组件案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 33
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "DIV"
+        },
+        "locators": [
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "一键关闭/展开 我的流程 我的申请 待我审批 经我审批 我的人事 我的档案 考勤日历 我的行政 我的会议 我的用车 手机短信"
+              ],
+              "visText": [
+                "一键关闭/展开 我的流程 我的申请 待我审批 经我审批 我的人事 我的行政 我的会议 我的用车 手机短信"
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::DIV[@id=\"content\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              6
+            ],
+            "value": "DIV.contentWrapper DIV"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 152,
+              "height": 341
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control1"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1"
+      ],
+      "anchors": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "reactComponent_list"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl0",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl0",
+                "onGetTemplate": "getTemplate_uiControl0"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "controlId": "control1",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl1",
+                "onGetTemplate": "getTemplate_uiControl1"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          ""
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/4012/2004/index.html",
+          "studio.static.enterplorer.com/public/cases/4012/2004/index.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          [
+            "btn",
+            "content"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "contentWrapper",
+            "hidden",
+            "toggle"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/DIV",
+            "DIV/DIV/UL",
+            "DIV/UL/LI"
+          ]
+        ]
+      }
+    }
+  }
+}

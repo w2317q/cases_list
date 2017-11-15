@@ -1,0 +1,31 @@
+.alert-demo {
+  background: orange;
+  color: white;
+  border: 0;
+}
+.btn-demo {
+  background: orange;
+  color: white;
+  border: 0;
+}
+.content-demo {
+  color: orange;
+}
+.fragment-demo {
+  color: orange;
+}
+.header-demo {
+  background: orange;
+  color: white;
+  border: 0;
+}
+.upload-demo {
+  background: orange;
+  color: white;
+  border: 0;
+}
+.css-override {
+  height: 100px;
+  width: 150px;
+  margin: 0 auto;
+}

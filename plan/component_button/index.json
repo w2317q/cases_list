@@ -1,0 +1,1677 @@
+{
+  "version": "0.1",
+  "id": "component_button",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0014/0002/c2.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_index": "../component_index/index.json"
+  },
+  "chineseName": "按钮组件适配案例",
+  "description": "component_button",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "value": {
+              "text": [
+                "type=button的按钮"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "value": {
+              "text": [
+                "type=button的按钮"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 1,
+            "value": "descendant::INPUT[@name=\"btn1\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": "DIV.contentWrapper INPUT.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "button"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 113.109375,
+              "height": 18
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "INPUT"
+        },
+        "locators": [
+          {
+            "id": "input/@value",
+            "prob": 1,
+            "value": {
+              "text": [
+                "type=submit的按钮"
+              ]
+            }
+          },
+          {
+            "id": "input/button/@value",
+            "prob": 3,
+            "value": {
+              "text": [
+                "type=submit的按钮"
+              ]
+            }
+          },
+          {
+            "id": "elem/@name",
+            "prob": 1,
+            "value": "descendant::INPUT[@name=\"btn2\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              2
+            ],
+            "value": "DIV.contentWrapper INPUT.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/INPUT[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 114.3125,
+              "height": 18
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control4": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control5": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control6": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control7": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control8": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control9": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control10": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control11": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control12": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control13": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control14": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control15": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control16": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false
+    },
+    "control18": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "按钮案例"
+              ],
+              "visText": [
+                "按钮案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "按钮案例"
+              ],
+              "visText": [
+                "按钮案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control18"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control19": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "button标签的按钮"
+              ],
+              "visText": [
+                "button标签的按钮"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper BUTTON.padding5"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 103.015625,
+              "height": 23
+            }
+          }
+        ]
+      },
+      "roles": "element,button",
+      "text": "button标签的按钮"
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2",
+        "control3",
+        "control4",
+        "control5",
+        "control6",
+        "control7",
+        "control8",
+        "control9",
+        "control10",
+        "control11",
+        "control12",
+        "control13",
+        "control14",
+        "control15",
+        "control16",
+        "control18"
+      ],
+      "anchors": [
+        "control19"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl6",
+          "controlId": "control18",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl6",
+                "onGetTemplate": "getTemplate_uiControl6"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl8",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl8body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl9",
+                  "display": {
+                    "type": "accordion",
+                    "adapterId": "accordion",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  },
+                  "layout": [
+                    {
+                      "id": "uiControl9item",
+                      "display": {
+                        "title": "普通拖拽",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl0",
+                          "controlId": "control0",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl1",
+                          "controlId": "control1",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl2",
+                          "controlId": "control2",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl10",
+                      "display": {
+                        "title": "镂空样式",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl3",
+                          "controlId": "control3",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "hollow": true,
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl11",
+                      "display": {
+                        "title": "按钮尺寸",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl12",
+                          "controlId": "control5",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amSize": "xs",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl4",
+                          "controlId": "control4",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amSize": "sm",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl13",
+                          "controlId": "control6",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl14",
+                          "controlId": "control7",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amSize": "lg",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl15",
+                          "controlId": "control8",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amSize": "xl",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl16",
+                      "display": {
+                        "title": "按钮颜色",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl17",
+                          "controlId": "control9",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amStyle": "primary",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl18",
+                          "controlId": "control10",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amStyle": "secondary",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl19",
+                          "controlId": "control11",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amStyle": "success",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl20",
+                          "controlId": "control12",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amStyle": "warning",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl21",
+                          "controlId": "control13",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amStyle": "alert",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        },
+                        {
+                          "id": "uiControl22",
+                          "controlId": "control14",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "amStyle": "dark",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl23",
+                      "display": {
+                        "title": "修改文本",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl24",
+                          "controlId": "control15",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "text": "我的文本被修改了",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiControl25",
+                      "display": {
+                        "title": "自定义 Class",
+                        "type": "accordionItem",
+                        "adapterId": "accordionItem",
+                        "adapter": {
+                          "templateType": ""
+                        }
+                      },
+                      "layout": [
+                        {
+                          "id": "uiControl26",
+                          "controlId": "control16",
+                          "display": {
+                            "adapterId": "clickable",
+                            "type": "button",
+                            "class": "btn-demo",
+                            "adapter": {
+                              "templateType": ""
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "按钮案例"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0002/c2.html",
+          "studio.static.enterplorer.com/public/cases/0014/0002/c2.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "contentWrapper",
+            "padding"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/BUTTON",
+            "DIV/DIV/INPUT-button",
+            "DIV/DIV/INPUT-submit"
+          ]
+        ]
+      }
+    }
+  }
+}

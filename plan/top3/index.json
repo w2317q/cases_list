@@ -1,0 +1,366 @@
+{
+  "version": "0.1",
+  "id": "top3",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4011/4016/index.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "top2": "../top2/index.json",
+    "advance_list": "../advance_list/index.json"
+  },
+  "chineseName": "top案例3",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例3"
+              ],
+              "visText": [
+                "top案例3"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例3"
+              ],
+              "visText": [
+                "top案例3"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例3"
+              ],
+              "visText": [
+                "top案例3"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "top案例3"
+              ],
+              "visText": [
+                "top案例3"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "top案例3"
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "BUTTON"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "alert"
+              ],
+              "visText": [
+                "alert"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "alert"
+              ],
+              "visText": [
+                "alert"
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::BUTTON[@id=\"btn\"]"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/BUTTON[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "submit"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 41,
+              "height": 21
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button",
+      "monitored": false,
+      "frameXPath": "//iframe[1]<<IFRAME>>"
+    }
+  },
+  "contexts": {
+    "context2": {
+      "controls": [
+        "control0",
+        "control2"
+      ],
+      "anchors": [
+        "control1"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "top2"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "advance_list"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context2",
+      "fromAction": "click",
+      "fromControlId": "control2",
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page2": {
+      "contextId": "context2",
+      "layout": [
+        {
+          "id": "uiControl2",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl2",
+                "onGetTemplate": "getTemplate_uiControl2"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl3",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl3body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl4",
+                  "controlId": "control2",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context2": [
+          "top",
+          "高级篇案例列表"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context2": [
+          "192.168.2.28:8765/public/cases/4011/4015/index.html",
+          "192.168.2.28:8765/public/cases/4011/index.html",
+          "studio.static.enterplorer.com/public/cases/4011/4016/index.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context2": [
+          [
+            "top-input"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context2": [
+          [
+            "contentWrapper"
+          ],
+          [
+            "am-li",
+            "contentWrapper",
+            "t"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context2": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR"
+          ],
+          [
+            "-/-/DIV",
+            "-/DIV/H1",
+            "-/DIV/UL",
+            "DIV/UL/LI",
+            "UL/LI/A"
+          ],
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/IFRAME",
+            "DIV/DIV/INPUT-text"
+          ]
+        ]
+      }
+    }
+  }
+}

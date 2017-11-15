@@ -1,0 +1,399 @@
+{
+  "version": "0.1",
+  "id": "too_much_data",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4011/4010/4010.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "advance_list": "../advance_list/index.json"
+  },
+  "chineseName": "表单字段过多",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表单字段过多"
+              ],
+              "visText": [
+                "表单字段过多"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表单字段过多"
+              ],
+              "visText": [
+                "表单字段过多"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 250,
+              "height": 39
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "TBODY"
+        },
+        "locators": [
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.tpl-form-border DIV.tpl-form-new TABLE.ui-table-A TBODY"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/TABLE[1]/TBODY[1]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 1062,
+              "height": 638
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control1"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表单字段过多"
+              ],
+              "visText": [
+                "表单字段过多"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表单字段过多"
+              ],
+              "visText": [
+                "表单字段过多"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              2
+            ],
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 250,
+              "height": 39
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "表单字段过多"
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "LABEL"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "采购合同"
+              ],
+              "visText": [
+                "采购合同"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "采购合同"
+              ],
+              "visText": [
+                "采购合同"
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 3,
+            "value": "descendant::LABEL[@id=\"funcName\"]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper DIV.tpl-form-border DIV.tpl-form-new H1 LABEL"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/H1[1]/LABEL[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 88,
+              "height": 36
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "采购合同"
+    }
+  },
+  "contexts": {
+    "context2": {
+      "controls": [
+        "control0",
+        "control1"
+      ],
+      "anchors": [
+        "control2",
+        "control3"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "advance_list"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page2": {
+      "contextId": "context2",
+      "layout": [
+        {
+          "id": "uiControl33",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl33",
+                "onGetTemplate": "getTemplate_uiControl33"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl34",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl34body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl35",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "custom",
+                    "type": "custom",
+                    "adapter": {
+                      "templateType": "react",
+                      "events": {
+                        "onDoAction": "doAction_uiControl35",
+                        "onGetTemplate": "getTemplate_uiControl35"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context2": [
+          "表单字段过多"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context2": [
+          "192.168.2.28:8765/public/cases/4011/4010/4010.html",
+          "studio.static.enterplorer.com/public/cases/4011/4010/4010.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context2": [
+          [
+            "Advance_ProcessStatus",
+            "HandleCommand_",
+            "LABEL_",
+            "funcName",
+            "tool-box"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context2": [
+          [
+            "contentWrapper",
+            "fn-clear",
+            "img-",
+            "title-r",
+            "tpl-form-border",
+            "tpl-form-new",
+            "tpl-toolbar-new",
+            "ui-button-FixCS",
+            "ui-icon-flow",
+            "ui-table-A"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context2": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "A/SPAN/EM",
+            "DIV/A/SPAN",
+            "DIV/DIV/A",
+            "DIV/DIV/DIV",
+            "DIV/DIV/H1",
+            "DIV/DIV/TABLE",
+            "DIV/H1/LABEL",
+            "DIV/H1/SPAN",
+            "DIV/TABLE/TBODY",
+            "TABLE/TBODY/TR",
+            "TBODY/TR/TD",
+            "TR/TD/KBD",
+            "TR/TD/LABEL"
+          ]
+        ]
+      }
+    }
+  }
+}

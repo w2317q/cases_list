@@ -1,0 +1,745 @@
+{
+  "version": "0.1",
+  "id": "advance_list",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4011/index.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "override_img": "../override_img/index.json",
+    "override_js": "../override_js/index.json",
+    "override_css": "../override_css/index.json",
+    "too_much_data": "../too_much_data/index.json",
+    "swfUpload": "../swfUpload/index.json",
+    "activex": "../activex/index.json",
+    "attachEvent": "../attachEvent/index.json",
+    "inner_outer": "../inner_outer/index.json",
+    "UEditor": "../UEditor/index.json",
+    "createElement": "../createElement/index.json",
+    "getElementById": "../getElementById/index.json",
+    "top2": "../top2/index.json",
+    "top3": "../top3/index.json",
+    "top4": "../top4/index.json",
+    "showModalDialog": "../showModalDialog/index.json",
+    "index": "../index/index.json"
+  },
+  "chineseName": "高级篇案例列表",
+  "controls": {
+    "control9": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表单字段过多"
+              ],
+              "visText": [
+                "表单字段过多"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "表单字段过多"
+              ],
+              "visText": [
+                "表单字段过多"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              9,
+              10
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[10]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": true
+    },
+    "control10": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control10"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control13": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "activeX"
+              ],
+              "visText": [
+                "activeX"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "activeX"
+              ],
+              "visText": [
+                "activeX"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              9,
+              10
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[10]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control15": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control15"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control17": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "高级篇案例列表"
+              ],
+              "visText": [
+                "高级篇案例列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "高级篇案例列表"
+    },
+    "control18": {
+      "location": {
+        "data": {
+          "tagName": "UL"
+        },
+        "locators": [
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "图片资源重载 js资源重载 css资源重载 浏览器兼容-showModalDialog 浏览器兼容-attachEvent 浏览器兼容-createElement 浏览器兼容-getElementById,getElementsByName tab页提取（内部页面和外部页面有关） 富文本编辑器-UEditor flash-swfUpload文件上传 表单字段过多 activeX"
+              ],
+              "visText": [
+                "图片资源重载 js资源重载 css资源重载 浏览器兼容-showModalDialog 浏览器兼容-attachEvent 浏览器兼容-createElement 浏览器兼容-getElementById,getElementsByName tab页提取（内部页面和外部页面有关） 富文本编辑器-UEditor flash-swfUpload文件上传 表单字段过多 activeX"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper UL.am-list"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 793
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control18"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control19": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "浏览器兼容-showModalDialog"
+              ],
+              "visText": [
+                "浏览器兼容-showModalDialog"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "浏览器兼容-showModalDialog"
+              ],
+              "visText": [
+                "浏览器兼容-showModalDialog"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              4,
+              15
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[5]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element,link",
+      "text": "浏览器兼容-showModalDialog"
+    }
+  },
+  "contexts": {
+    "context1": {
+      "controls": [
+        "control9",
+        "control10",
+        "control15",
+        "control18"
+      ],
+      "anchors": [
+        "control17",
+        "control19"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "index"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control18",
+      "toContexts": [
+        {
+          "toContextId": "context2",
+          "toModelId": "override_img"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "override_js"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "override_css"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "too_much_data"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "swfUpload"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "activex"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "attachEvent"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "inner_outer"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "UEditor"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "createElement"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "getElementById"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "top2"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "top3"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "top4"
+        },
+        {
+          "toContextId": "context2",
+          "toModelId": "showModalDialog"
+        },
+        {
+          "toContextId": "context1"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page1": {
+      "contextId": "context1",
+      "layout": [
+        {
+          "id": "uiControl0",
+          "controlId": "control15",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl0",
+                "onGetTemplate": "getTemplate_uiControl0"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl2",
+                  "controlId": "control18",
+                  "display": {
+                    "adapterId": "custom",
+                    "type": "custom",
+                    "adapter": {
+                      "templateType": "react",
+                      "events": {
+                        "onDoAction": "doAction_uiControl2",
+                        "onGetTemplate": "getTemplate_uiControl2"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context1": [
+          "高级篇案例列表"
+        ],
+        "context2": [
+          "IE和Chrome方法异同",
+          "浏览器兼容"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context1": [
+          "192.168.2.28:8765/public/cases/4011/index.html",
+          "studio.static.enterplorer.com/public/cases/4011/index.html"
+        ],
+        "context2": [
+          "qawemlilo.github.io/customized-swfupload/",
+          "192.168.2.28:8765/public/cases/4011/4009/4009.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context1": [
+          []
+        ],
+        "context2": [
+          [
+            "Filedata",
+            "btnCancel",
+            "cancelUpload",
+            "content",
+            "counterDiv",
+            "form",
+            "fsUploadProgress",
+            "header",
+            "logo",
+            "num_loaded",
+            "progressBar",
+            "queued_total",
+            "statusDiv",
+            "undercover",
+            "version",
+            "ysp_fake_form"
+          ],
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context1": [
+          [
+            "am-li",
+            "contentWrapper",
+            "t"
+          ]
+        ],
+        "context2": [
+          [
+            "abled-dom",
+            "di",
+            "fla",
+            "h"
+          ],
+          []
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context1": [
+          [
+            "-/-/DIV",
+            "-/DIV/H1",
+            "-/DIV/UL",
+            "DIV/UL/LI",
+            "UL/LI/A"
+          ]
+        ],
+        "context2": [
+          [
+            "-/-/A",
+            "-/-/DIV",
+            "-/A/IMG",
+            "-/DIV/DIV",
+            "-/DIV/FORM",
+            "-/DIV/H1",
+            "-/DIV/H2",
+            "DIV/A/IMG",
+            "DIV/FORM/DIV",
+            "DIV/FORM/INPUT-file",
+            "DIV/FORM/INPUT-null",
+            "DIV/H1/A",
+            "FORM/DIV/A",
+            "FORM/DIV/DIV",
+            "FORM/DIV/FORM",
+            "FORM/DIV/INPUT-button",
+            "FORM/DIV/SPAN"
+          ],
+          [
+            "-/-/HTML",
+            "-/HTML/HEAD",
+            "HTML/HEAD/LINK",
+            "HTML/HEAD/SCRIPT",
+            "HTML/HEAD/TITLE"
+          ]
+        ]
+      }
+    }
+  }
+}

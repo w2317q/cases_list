@@ -1,0 +1,1056 @@
+{
+  "version": "0.1",
+  "id": "extensionComponent_list",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4013/extension-component-list.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "extensionComponent_grid": "../extensionComponent_grid/index.json",
+    "extensionComponent_content": "../extensionComponent_content/index.json",
+    "extensionComponent_accordion": "../extensionComponent_accordion/index.json",
+    "extensionComponent_card": "../extensionComponent_card/index.json",
+    "extensionComponent_header": "../extensionComponent_header/index.json",
+    "extensionComponent_sticky": "../extensionComponent_sticky/index.json",
+    "extensionComponent_slideContent": "../extensionComponent_slideContent/index.json",
+    "extensionComponent_divider": "../extensionComponent_divider/index.json",
+    "index": "../index/index.json"
+  },
+  "chineseName": "扩展组件案例列表",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "扩展组件案例列表"
+              ],
+              "visText": [
+                "扩展组件案例列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "扩展组件案例列表"
+              ],
+              "visText": [
+                "扩展组件案例列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "grid分栏"
+              ],
+              "visText": [
+                "grid分栏"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "grid分栏"
+              ],
+              "visText": [
+                "grid分栏"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[1]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "文本"
+              ],
+              "visText": [
+                "文本"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "文本"
+              ],
+              "visText": [
+                "文本"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[2]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "手风琴折叠"
+              ],
+              "visText": [
+                "手风琴折叠"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "手风琴折叠"
+              ],
+              "visText": [
+                "手风琴折叠"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[3]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control4": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "卡片布局"
+              ],
+              "visText": [
+                "卡片布局"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "卡片布局"
+              ],
+              "visText": [
+                "卡片布局"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              3,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[4]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control5": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "页头"
+              ],
+              "visText": [
+                "页头"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "页头"
+              ],
+              "visText": [
+                "页头"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              4,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[5]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control6": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "页脚"
+              ],
+              "visText": [
+                "页脚"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "页脚"
+              ],
+              "visText": [
+                "页脚"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              5,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[6]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control7": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "贮藏板"
+              ],
+              "visText": [
+                "贮藏板"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "贮藏板"
+              ],
+              "visText": [
+                "贮藏板"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              6,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[7]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control8": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "分割线"
+              ],
+              "visText": [
+                "分割线"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "分割线"
+              ],
+              "visText": [
+                "分割线"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              7,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[8]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control9": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "页脚"
+              ],
+              "visText": [
+                "页脚"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "页脚"
+              ],
+              "visText": [
+                "页脚"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              5,
+              8
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[6]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element,link",
+      "text": "页脚"
+    }
+  },
+  "contexts": {
+    "context1": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2",
+        "control3",
+        "control4",
+        "control5",
+        "control6",
+        "control7",
+        "control8"
+      ],
+      "anchors": [
+        "control9"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "index"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control1",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_grid"
+        }
+      ]
+    },
+    "flow2": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control2",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_content"
+        }
+      ]
+    },
+    "flow3": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control3",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_accordion"
+        }
+      ]
+    },
+    "flow4": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control4",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_card"
+        }
+      ]
+    },
+    "flow5": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control5",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_header"
+        }
+      ]
+    },
+    "flow6": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control6",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_sticky"
+        }
+      ]
+    },
+    "flow7": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control7",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_slideContent"
+        }
+      ]
+    },
+    "flow8": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control8",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "extensionComponent_divider"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page1": {
+      "contextId": "context1",
+      "layout": [
+        {
+          "id": "uiControl6",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl6",
+                "onGetTemplate": "getTemplate_uiControl6"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl7",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl7body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl8",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl9",
+                  "controlId": "control2",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl10",
+                  "controlId": "control3",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl11",
+                  "controlId": "control4",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl12",
+                  "controlId": "control5",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl13",
+                  "controlId": "control6",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl14",
+                  "controlId": "control7",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl15",
+                  "controlId": "control8",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context1": [
+          "扩展组件"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context1": [
+          "192.168.2.28:8765/public/cases/4013/extension-component-list.html",
+          "studio.static.enterplorer.com/public/cases/4013/extension-component-list.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context1": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context1": [
+          [
+            "am-li",
+            "contentWrapper",
+            "t"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context1": [
+          [
+            "-/-/DIV",
+            "-/DIV/H1",
+            "-/DIV/UL",
+            "DIV/UL/LI",
+            "UL/LI/A"
+          ]
+        ]
+      }
+    }
+  }
+}

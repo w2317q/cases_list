@@ -1,0 +1,1117 @@
+{
+  "version": "0.1",
+  "id": "reactComponent_list",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4012/index.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "react_echarts": "../react_echarts/index.json",
+    "react_table": "../react_table/index.json",
+    "react_tree": "../react_tree/index.json",
+    "react_cardList": "../react_cardList/index.json",
+    "index": "../index/index.json"
+  },
+  "chineseName": "React组件列表",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "React组件列表"
+              ],
+              "visText": [
+                "React组件列表"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "React组件列表"
+              ],
+              "visText": [
+                "React组件列表"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 700,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ECharts组件"
+              ],
+              "visText": [
+                "ECharts组件"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ECharts组件"
+              ],
+              "visText": [
+                "ECharts组件"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              4
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[1]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "table组件"
+              ],
+              "visText": [
+                "table组件"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "table组件"
+              ],
+              "visText": [
+                "table组件"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              4
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[2]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "树形组件"
+              ],
+              "visText": [
+                "树形组件"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "树形组件"
+              ],
+              "visText": [
+                "树形组件"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              4
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[3]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control4": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "卡片列表组件"
+              ],
+              "visText": [
+                "卡片列表组件"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "卡片列表组件"
+              ],
+              "visText": [
+                "卡片列表组件"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              3,
+              4
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[4]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false
+    },
+    "control5": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "userData": {
+          "data": [],
+          "force": false
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ECharts"
+              ],
+              "visText": [
+                "ECharts"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ECharts"
+              ],
+              "visText": [
+                "ECharts"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              4
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[1]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element,link",
+      "text": "ECharts"
+    },
+    "control21_lNyTxT": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Gallery"
+              ],
+              "visText": [
+                "Gallery"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Gallery"
+              ],
+              "visText": [
+                "Gallery"
+              ]
+            }
+          },
+          {
+            "id": "a/@href",
+            "prob": 2,
+            "value": {
+              "pathname": "/public/cases/4012/2005/gallery.html"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              4,
+              9
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[5]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false,
+      "frameXPath": ""
+    },
+    "control22_I0sC2h": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ImageGallery"
+              ],
+              "visText": [
+                "ImageGallery"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "ImageGallery"
+              ],
+              "visText": [
+                "ImageGallery"
+              ]
+            }
+          },
+          {
+            "id": "a/@href",
+            "prob": 2,
+            "value": {
+              "pathname": "/public/cases/4012/2005/imageGallery.html"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              5,
+              9
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[6]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false,
+      "frameXPath": ""
+    },
+    "control23_nsHxqB": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Tabs"
+              ],
+              "visText": [
+                "Tabs"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Tabs"
+              ],
+              "visText": [
+                "Tabs"
+              ]
+            }
+          },
+          {
+            "id": "a/@href",
+            "prob": 2,
+            "value": {
+              "pathname": "/public/cases/4012/2005/tabs.html"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              6,
+              9
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[7]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false,
+      "frameXPath": ""
+    },
+    "control24_Jm9frT": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Pagination"
+              ],
+              "visText": [
+                "Pagination"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "Pagination"
+              ],
+              "visText": [
+                "Pagination"
+              ]
+            }
+          },
+          {
+            "id": "a/@href",
+            "prob": 2,
+            "value": {
+              "pathname": "/public/cases/4012/2005/pagination.html"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              7,
+              9
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[8]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false,
+      "frameXPath": ""
+    },
+    "control25_OrN4qG": {
+      "location": {
+        "data": {
+          "tagName": "A"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "NewsList"
+              ],
+              "visText": [
+                "NewsList"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "NewsList"
+              ],
+              "visText": [
+                "NewsList"
+              ]
+            }
+          },
+          {
+            "id": "a/@href",
+            "prob": 2,
+            "value": {
+              "pathname": "/public/cases/4012/2005/newsList.html"
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              8,
+              9
+            ],
+            "value": "DIV.contentWrapper UL.am-list LI A"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/UL[1]/LI[9]/A[1]"
+          },
+          {
+            "id": "style/color",
+            "value": [
+              14,
+              144,
+              210
+            ]
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          }
+        ]
+      },
+      "intendedRole": "button",
+      "roles": "element,button,link",
+      "monitored": false,
+      "frameXPath": ""
+    }
+  },
+  "contexts": {
+    "context1": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2",
+        "control3",
+        "control4",
+        "control21_lNyTxT",
+        "control22_I0sC2h",
+        "control23_nsHxqB",
+        "control24_Jm9frT",
+        "control25_OrN4qG"
+      ],
+      "anchors": [
+        "control5"
+      ],
+      "urlAnchor": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "index"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control1",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "react_echarts"
+        }
+      ]
+    },
+    "flow2": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control2",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "react_table"
+        }
+      ]
+    },
+    "flow3": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control3",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "react_tree"
+        }
+      ]
+    },
+    "flow4": {
+      "fromContextId": "context1",
+      "fromAction": "click",
+      "fromControlId": "control4",
+      "toContexts": [
+        {
+          "toContextId": "context1"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "react_cardList"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page1": {
+      "contextId": "context1",
+      "layout": [
+        {
+          "id": "uiControl0",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl0",
+                "onGetTemplate": "getTemplate_uiControl0"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl2",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl3",
+                  "controlId": "control2",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl4",
+                  "controlId": "control3",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl5",
+                  "controlId": "control4",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl27_1n1eo7",
+                  "controlId": "control21_lNyTxT",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl28_gicrMD",
+                  "controlId": "control22_I0sC2h",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl37_l3eTgi",
+                  "controlId": "control23_nsHxqB",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl38_LrBozk",
+                  "controlId": "control24_Jm9frT",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl39_nzphwm",
+                  "controlId": "control25_OrN4qG",
+                  "display": {
+                    "adapterId": "clickable",
+                    "type": "button",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context1": [
+          "React组件列表"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context1": [
+          "192.168.2.28:8765/public/cases/4012/index.html",
+          "studio.static.enterplorer.com/public/cases/4012/index.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context1": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context1": [
+          [
+            "am-li",
+            "contentWrapper",
+            "t"
+          ],
+          [
+            "am-list",
+            "contentWrapper"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context1": [
+          [
+            "-/-/DIV",
+            "-/DIV/H1",
+            "-/DIV/UL",
+            "DIV/UL/LI",
+            "UL/LI/A"
+          ],
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/H1",
+            "-/DIV/UL",
+            "DIV/UL/LI",
+            "UL/LI/A"
+          ]
+        ]
+      }
+    }
+  }
+}

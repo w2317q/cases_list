@@ -1,0 +1,451 @@
+{
+  "version": "0.1",
+  "id": "component_select",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/0014/0012/c12.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "component_index": "../component_index/index.json"
+  },
+  "chineseName": "下拉框案例",
+  "description": "component_select",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "SELECT"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              0,
+              3
+            ],
+            "value": {
+              "text": [
+                "快捷的移动适配开发 统一的办公通讯门户 完善的安全管理平台"
+              ],
+              "visText": [
+                ""
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "快捷的移动适配开发 统一的办公通讯门户 完善的安全管理平台"
+              ],
+              "visText": [
+                ""
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              0,
+              3
+            ],
+            "value": "DIV.contentWrapper SELECT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/SELECT[1]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "select-one"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 130,
+              "height": 18
+            }
+          }
+        ]
+      },
+      "intendedRole": "listbox",
+      "roles": "element,listbox",
+      "monitored": true
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "SELECT"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              1,
+              3
+            ],
+            "value": {
+              "text": [
+                "快捷的移动适配开发 统一的办公通讯门户 完善的安全管理平台"
+              ],
+              "visText": [
+                ""
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "快捷的移动适配开发 统一的办公通讯门户 完善的安全管理平台"
+              ],
+              "visText": [
+                ""
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              1,
+              3
+            ],
+            "value": "DIV.contentWrapper SELECT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/SELECT[2]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "select-one"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 130,
+              "height": 18
+            }
+          }
+        ]
+      },
+      "intendedRole": "listbox",
+      "roles": "element,listbox",
+      "monitored": true
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "SELECT"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              2,
+              3
+            ],
+            "value": {
+              "text": [
+                "快捷的移动适配开发 统一的办公通讯门户 完善的安全管理平台"
+              ],
+              "visText": [
+                ""
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "快捷的移动适配开发 统一的办公通讯门户 完善的安全管理平台"
+              ],
+              "visText": [
+                ""
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "ordinal": [
+              2,
+              3
+            ],
+            "value": "DIV.contentWrapper SELECT"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/SELECT[3]"
+          },
+          {
+            "id": "input/type",
+            "verifyEnabled": true,
+            "value": "select-one"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 130,
+              "height": 18
+            }
+          }
+        ]
+      },
+      "intendedRole": "listbox",
+      "roles": "element,listbox",
+      "monitored": true
+    },
+    "control3": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "下拉框案例"
+              ],
+              "visText": [
+                "下拉框案例"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "下拉框案例"
+              ],
+              "visText": [
+                "下拉框案例"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 680,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control3"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    }
+  },
+  "contexts": {
+    "context0": {
+      "controls": [
+        "control0",
+        "control1",
+        "control2",
+        "control3"
+      ],
+      "anchors": []
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        },
+        {
+          "toContextId": "context0",
+          "toModelId": "component_index"
+        }
+      ]
+    },
+    "flow1": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control0",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    },
+    "flow2": {
+      "fromContextId": "context0",
+      "fromAction": "click",
+      "fromControlId": "control2",
+      "toContexts": [
+        {
+          "toContextId": "context0"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page0": {
+      "contextId": "context0",
+      "layout": [
+        {
+          "id": "uiControl6",
+          "controlId": "control3",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl6",
+                "onGetTemplate": "getTemplate_uiControl6"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl1",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl1body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl3",
+                  "controlId": "control0",
+                  "display": {
+                    "adapterId": "listbox",
+                    "type": "listbox",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl4",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "listbox",
+                    "type": "listbox",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                },
+                {
+                  "id": "uiControl5",
+                  "controlId": "control2",
+                  "display": {
+                    "adapterId": "listbox",
+                    "type": "listbox",
+                    "adapter": {
+                      "templateType": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context0": [
+          "下拉框案例"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context0": [
+          "192.168.2.28:8765/public/cases/0014/0012/c12.html",
+          "studio.static.enterplorer.com/public/cases/0014/0012/c12.html"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context0": [
+          []
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context0": [
+          [
+            "abled-dom",
+            "contentWrapper",
+            "di"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context0": [
+          [
+            "-/-/DIV",
+            "-/DIV/DIV",
+            "-/DIV/H1",
+            "-/DIV/HR",
+            "DIV/DIV/P",
+            "DIV/DIV/SELECT",
+            "DIV/SELECT/OPTION"
+          ]
+        ]
+      }
+    }
+  }
+}

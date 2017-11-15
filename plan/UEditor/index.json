@@ -1,0 +1,720 @@
+{
+  "version": "0.1",
+  "id": "UEditor",
+  "targetURL": "http://studio.static.enterplorer.com/public/cases/4011/4008/4008.html",
+  "jsFile": "../../lib/base.js,../../lib/customTemplate.js,index.js",
+  "cssFile": "../../lib/base.css",
+  "requires": {
+    "advance_list": "../advance_list/index.json"
+  },
+  "chineseName": "富文本编辑器",
+  "controls": {
+    "control0": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "富文本编辑器-UEditor"
+              ],
+              "visText": [
+                "富文本编辑器-UEditor"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "富文本编辑器-UEditor"
+              ],
+              "visText": [
+                "富文本编辑器-UEditor"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 1000,
+              "height": 38
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control0"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": false
+    },
+    "control1": {
+      "location": {
+        "data": {
+          "tagName": "DIV"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "ordinal": [
+              2,
+              3
+            ],
+            "value": {
+              "text": [
+                "自定义标题段落格式字体字号代码语言点击上传x元素路径:字数统计"
+              ],
+              "visText": [
+                "自定义标题段落格式字体字号代码语言元素路径:字数统计"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "自定义标题段落格式字体字号代码语言点击上传x元素路径:字数统计"
+              ],
+              "visText": [
+                "自定义标题 段落格式 字体 字号 代码语言 元素路径: 字数统计"
+              ]
+            }
+          },
+          {
+            "id": "@id/word",
+            "prob": 2,
+            "value": "descendant::DIV[@id=\"editor\"]/DIV[1]"
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper DIV.edui-default DIV.edui-editor.edui-default"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]"
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "999",
+              "width": 1026,
+              "height": 606
+            }
+          }
+        ]
+      },
+      "events": {
+        "onGetData": "getData_control1"
+      },
+      "intendedRole": "custom",
+      "roles": "element,custom",
+      "monitored": true
+    },
+    "control2": {
+      "location": {
+        "data": {
+          "tagName": "H1"
+        },
+        "locators": [
+          {
+            "id": "button/text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "富文本编辑器-UEditor"
+              ],
+              "visText": [
+                "富文本编辑器-UEditor"
+              ]
+            }
+          },
+          {
+            "id": "text",
+            "prob": 3,
+            "value": {
+              "text": [
+                "富文本编辑器-UEditor"
+              ],
+              "visText": [
+                "富文本编辑器-UEditor"
+              ]
+            }
+          },
+          {
+            "id": "@class/word",
+            "prob": 1,
+            "value": "DIV.contentWrapper H1"
+          },
+          {
+            "id": "path/ordinal",
+            "prob": 1,
+            "value": "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/H1[1]"
+          },
+          {
+            "id": "elderLevel",
+            "value": {
+              "level": 0
+            }
+          },
+          {
+            "id": "shield",
+            "value": {
+              "zIndex": "auto",
+              "width": 1000,
+              "height": 45
+            }
+          }
+        ]
+      },
+      "roles": "element",
+      "text": "富文本编辑器-UEditor"
+    }
+  },
+  "contexts": {
+    "context2": {
+      "controls": [
+        "control0",
+        "control1"
+      ],
+      "anchors": [
+        "control2"
+      ]
+    }
+  },
+  "flows": {
+    "flow0": {
+      "toContexts": [
+        {
+          "toContextId": "context2"
+        },
+        {
+          "toContextId": "context1",
+          "toModelId": "advance_list"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "page2": {
+      "contextId": "context2",
+      "layout": [
+        {
+          "id": "uiControl24",
+          "controlId": "control0",
+          "display": {
+            "adapterId": "custom",
+            "type": "custom",
+            "adapter": {
+              "templateType": "react",
+              "events": {
+                "onDoAction": "doAction_uiControl24",
+                "onGetTemplate": "getTemplate_uiControl24"
+              }
+            }
+          }
+        },
+        {
+          "id": "uiControl25",
+          "display": {
+            "type": "card",
+            "adapterId": "card",
+            "adapter": {
+              "templateType": ""
+            }
+          },
+          "layout": [
+            {
+              "id": "uiControl25body",
+              "display": {
+                "type": "cardBody",
+                "adapterId": "cardBody",
+                "adapter": {
+                  "templateType": ""
+                }
+              },
+              "layout": [
+                {
+                  "id": "uiControl26",
+                  "controlId": "control1",
+                  "display": {
+                    "adapterId": "custom",
+                    "type": "custom",
+                    "adapter": {
+                      "templateType": "react",
+                      "events": {
+                        "onDoAction": "doAction_uiControl26",
+                        "onGetTemplate": "getTemplate_uiControl26"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "matchers": {
+    "page/title": {
+      "contexts": {
+        "context2": [
+          "UEditor"
+        ],
+        "context1": [
+          "高级篇案例列表",
+          "案例列表"
+        ]
+      }
+    },
+    "page/urls": {
+      "contexts": {
+        "context2": [
+          "192.168.2.28:8765/public/cases/4011/4008/4008.html",
+          "studio.static.enterplorer.com/public/cases/4011/4008/4008.html"
+        ],
+        "context1": [
+          "192.168.2.28:8765/public/cases/4011/index.html",
+          "studio.static.enterplorer.com/public/cases/4011/index.html",
+          "studio.static.enterplorer.com/public/cases/0015/"
+        ]
+      }
+    },
+    "page/ids": {
+      "contexts": {
+        "context2": [
+          [
+            "btns",
+            "editor",
+            "edui",
+            "edui_body",
+            "edui_bottombar",
+            "edui_button_body",
+            "edui_buttons",
+            "edui_colorlump",
+            "edui_content",
+            "edui_elementpath",
+            "edui_fixedlayer",
+            "edui_iframeholder",
+            "edui_message_holder",
+            "edui_scale",
+            "edui_scalelayer",
+            "edui_state",
+            "edui_titlebar",
+            "edui_toolbarbox",
+            "edui_toolbarboxouter",
+            "edui_toolbarmsg",
+            "edui_toolbarmsg_label",
+            "edui_upload_dialog",
+            "edui_wordcount",
+            "ueditor_"
+          ],
+          [
+            "btns",
+            "editor"
+          ]
+        ]
+      }
+    },
+    "page/classes": {
+      "contexts": {
+        "context2": [
+          [
+            " edui-default",
+            "abled",
+            "ageholder edui-default",
+            "cale edui-default",
+            "contentWrapper",
+            "crawl edui-default",
+            "creen edui-default",
+            "cript edui-default",
+            "e edui-default",
+            "earchreplace edui-default",
+            "ebutton edui-default",
+            "edui-",
+            "edui-box edui-",
+            "edui-box edui-arrow edui-default",
+            "edui-box edui-button edui-cancelbutton edui-default",
+            "edui-box edui-button edui-dialog-clo",
+            "edui-box edui-button edui-for-",
+            "edui-box edui-button edui-for-anchor edui-default",
+            "edui-box edui-button edui-for-attachment edui-default",
+            "edui-box edui-button edui-for-background edui-default",
+            "edui-box edui-button edui-for-blockquote edui-default",
+            "edui-box edui-button edui-for-bold edui-default",
+            "edui-box edui-button edui-for-chart",
+            "edui-box edui-button edui-for-cleardoc edui-default",
+            "edui-box edui-button edui-for-date edui-default",
+            "edui-box edui-button edui-for-deletecol edui-default",
+            "edui-box edui-button edui-for-deleterow edui-default",
+            "edui-box edui-button edui-for-deletetable edui-default",
+            "edui-box edui-button edui-for-directionalityltr edui-default",
+            "edui-box edui-button edui-for-directionalityrtl edui-default",
+            "edui-box edui-button edui-for-draft",
+            "edui-box edui-button edui-for-fontborder edui-default",
+            "edui-box edui-button edui-for-formatmatch edui-default",
+            "edui-box edui-button edui-for-full",
+            "edui-box edui-button edui-for-gmap edui-default",
+            "edui-box edui-button edui-for-help edui-default",
+            "edui-box edui-button edui-for-horizontal edui-default",
+            "edui-box edui-button edui-for-imagecenter edui-default",
+            "edui-box edui-button edui-for-imageleft edui-default",
+            "edui-box edui-button edui-for-imagenone edui-default",
+            "edui-box edui-button edui-for-imageright edui-default",
+            "edui-box edui-button edui-for-in",
+            "edui-box edui-button edui-for-indent edui-default",
+            "edui-box edui-button edui-for-italic edui-default",
+            "edui-box edui-button edui-for-ju",
+            "edui-box edui-button edui-for-link edui-default",
+            "edui-box edui-button edui-for-map edui-default",
+            "edui-box edui-button edui-for-mergecell",
+            "edui-box edui-button edui-for-mergedown edui-default",
+            "edui-box edui-button edui-for-mergeright edui-default",
+            "edui-box edui-button edui-for-mu",
+            "edui-box edui-button edui-for-pa",
+            "edui-box edui-button edui-for-pagebreak edui-default",
+            "edui-box edui-button edui-for-preview edui-default",
+            "edui-box edui-button edui-for-print edui-default",
+            "edui-box edui-button edui-for-redo edui-default",
+            "edui-box edui-button edui-for-removeformat edui-default",
+            "edui-box edui-button edui-for-template edui-default",
+            "edui-box edui-button edui-for-time edui-default",
+            "edui-box edui-button edui-for-tolowerca",
+            "edui-box edui-button edui-for-toupperca",
+            "edui-box edui-button edui-for-underline edui-default",
+            "edui-box edui-button edui-for-undo edui-default",
+            "edui-box edui-button edui-for-unlink edui-default",
+            "edui-box edui-button edui-for-webapp edui-default",
+            "edui-box edui-button edui-for-wordimage edui-default",
+            "edui-box edui-button edui-okbutton edui-default",
+            "edui-box edui-button-body edui-default",
+            "edui-box edui-combox edui-for-cu",
+            "edui-box edui-combox edui-for-font",
+            "edui-box edui-combox edui-for-fontfamily edui-default",
+            "edui-box edui-combox edui-for-in",
+            "edui-box edui-combox edui-for-paragraph edui-default",
+            "edui-box edui-icon edui-default",
+            "edui-box edui-label edui-default",
+            "edui-box edui-menubutton edui-for-in",
+            "edui-box edui-menubutton edui-for-lineheight edui-default",
+            "edui-box edui-menubutton edui-for-row",
+            "edui-button-body edui-default",
+            "edui-button-wrap edui-default",
+            "edui-colorlump",
+            "edui-combox-body edui-default",
+            "edui-default",
+            "edui-default edui-",
+            "edui-dialog edui-for-",
+            "edui-dialog-",
+            "edui-dialog-body edui-default",
+            "edui-dialog-button",
+            "edui-dialog-caption edui-default",
+            "edui-dialog-content edui-default",
+            "edui-dialog-draghandle edui-default",
+            "edui-dialog-foot edui-default",
+            "edui-dialog-titlebar edui-default",
+            "edui-editor  edui-default",
+            "edui-editor-",
+            "edui-editor-bottomContainer edui-default",
+            "edui-editor-bottombar edui-default",
+            "edui-editor-breadcrumb",
+            "edui-editor-icon edui-default",
+            "edui-editor-iframeholder edui-default",
+            "edui-editor-me",
+            "edui-editor-toolbarbox edui-default",
+            "edui-editor-toolbarboxinner edui-default",
+            "edui-editor-toolbarboxouter edui-default",
+            "edui-editor-toolbarm",
+            "edui-editor-wordcount edui-default",
+            "edui-ma",
+            "edui-menubutton-body edui-default",
+            "edui-popup  edui-bubble edui-default",
+            "edui-popup-body edui-default",
+            "edui-popup-content edui-default",
+            "edui-toolbar   edui-default",
+            "electall edui-default",
+            "eparator  edui-default",
+            "ertcode edui-default",
+            "ertcol edui-default",
+            "ertframe edui-default",
+            "ertimage edui-default",
+            "ertorderedli",
+            "ertparagraphbeforetable edui-default",
+            "ertrow edui-default",
+            "erttable edui-default",
+            "ertunorderedli",
+            "ertvideo edui-default",
+            "et edui-default",
+            "g edui-default",
+            "g-clo",
+            "g-label edui-default",
+            "g-upload edui-default",
+            "hadow edui-default",
+            "ic edui-default",
+            "impleupload edui-default",
+            "ize edui-default",
+            "k  edui-dialog-dragma",
+            "k  edui-dialog-modalma",
+            "k edui-default",
+            "nap",
+            "ource edui-default",
+            "pacingbottom edui-default",
+            "pacingtop edui-default",
+            "pechar",
+            "plitborder edui-default",
+            "plitbutton edui-for-autotype",
+            "plitbutton edui-for-backcolor edui-default edui-colorbutton",
+            "plitbutton edui-for-emotion edui-default",
+            "plitbutton edui-for-forecolor edui-default edui-colorbutton",
+            "plitbutton edui-for-in",
+            "plitbutton-body edui-default",
+            "plittocell",
+            "plittocol",
+            "plittorow",
+            "t edui-default",
+            "tate-di",
+            "teplain edui-default",
+            "tify edui-default",
+            "tifycenter edui-default",
+            "tifyju",
+            "tifyleft edui-default",
+            "tifyright edui-default",
+            "tom",
+            "trikethrough edui-default",
+            "tyle edui-default",
+            "ub",
+            "uper"
+          ],
+          [
+            " edui-default",
+            "abled",
+            "ageholder edui-default",
+            "cale edui-default",
+            "contentWrapper",
+            "crawl edui-default",
+            "creen edui-default",
+            "cript edui-default",
+            "e edui-default",
+            "earchreplace edui-default",
+            "ebutton edui-default",
+            "edui-",
+            "edui-box edui-",
+            "edui-box edui-arrow edui-default",
+            "edui-box edui-button edui-cancelbutton edui-default",
+            "edui-box edui-button edui-dialog-clo",
+            "edui-box edui-button edui-for-",
+            "edui-box edui-button edui-for-anchor edui-default",
+            "edui-box edui-button edui-for-attachment edui-default",
+            "edui-box edui-button edui-for-background edui-default",
+            "edui-box edui-button edui-for-blockquote edui-default",
+            "edui-box edui-button edui-for-bold edui-default",
+            "edui-box edui-button edui-for-chart",
+            "edui-box edui-button edui-for-cleardoc edui-default",
+            "edui-box edui-button edui-for-date edui-default",
+            "edui-box edui-button edui-for-deletecol edui-default",
+            "edui-box edui-button edui-for-deleterow edui-default",
+            "edui-box edui-button edui-for-deletetable edui-default",
+            "edui-box edui-button edui-for-directionalityltr edui-default",
+            "edui-box edui-button edui-for-directionalityrtl edui-default",
+            "edui-box edui-button edui-for-draft",
+            "edui-box edui-button edui-for-fontborder edui-default",
+            "edui-box edui-button edui-for-formatmatch edui-default",
+            "edui-box edui-button edui-for-full",
+            "edui-box edui-button edui-for-gmap edui-default",
+            "edui-box edui-button edui-for-help edui-default",
+            "edui-box edui-button edui-for-horizontal edui-default",
+            "edui-box edui-button edui-for-imagecenter edui-default",
+            "edui-box edui-button edui-for-imageleft edui-default",
+            "edui-box edui-button edui-for-imagenone edui-default",
+            "edui-box edui-button edui-for-imageright edui-default",
+            "edui-box edui-button edui-for-in",
+            "edui-box edui-button edui-for-indent edui-default",
+            "edui-box edui-button edui-for-italic edui-default",
+            "edui-box edui-button edui-for-ju",
+            "edui-box edui-button edui-for-link edui-default",
+            "edui-box edui-button edui-for-map edui-default",
+            "edui-box edui-button edui-for-mergecell",
+            "edui-box edui-button edui-for-mergedown edui-default",
+            "edui-box edui-button edui-for-mergeright edui-default",
+            "edui-box edui-button edui-for-mu",
+            "edui-box edui-button edui-for-pa",
+            "edui-box edui-button edui-for-pagebreak edui-default",
+            "edui-box edui-button edui-for-preview edui-default",
+            "edui-box edui-button edui-for-print edui-default",
+            "edui-box edui-button edui-for-redo edui-default",
+            "edui-box edui-button edui-for-removeformat edui-default",
+            "edui-box edui-button edui-for-template edui-default",
+            "edui-box edui-button edui-for-time edui-default",
+            "edui-box edui-button edui-for-tolowerca",
+            "edui-box edui-button edui-for-toupperca",
+            "edui-box edui-button edui-for-underline edui-default",
+            "edui-box edui-button edui-for-undo edui-default",
+            "edui-box edui-button edui-for-unlink edui-default",
+            "edui-box edui-button edui-for-webapp edui-default",
+            "edui-box edui-button edui-for-wordimage edui-default",
+            "edui-box edui-button edui-okbutton edui-default",
+            "edui-box edui-button-body edui-default",
+            "edui-box edui-combox edui-for-cu",
+            "edui-box edui-combox edui-for-font",
+            "edui-box edui-combox edui-for-fontfamily edui-default",
+            "edui-box edui-combox edui-for-in",
+            "edui-box edui-combox edui-for-paragraph edui-default",
+            "edui-box edui-icon edui-default",
+            "edui-box edui-label edui-default",
+            "edui-box edui-menubutton edui-for-in",
+            "edui-box edui-menubutton edui-for-lineheight edui-default",
+            "edui-box edui-menubutton edui-for-row",
+            "edui-button-body edui-default",
+            "edui-button-wrap edui-default",
+            "edui-colorlump",
+            "edui-combox-body edui-default",
+            "edui-default",
+            "edui-default edui-",
+            "edui-dialog edui-for-",
+            "edui-dialog-",
+            "edui-dialog-body edui-default",
+            "edui-dialog-button",
+            "edui-dialog-caption edui-default",
+            "edui-dialog-content edui-default",
+            "edui-dialog-draghandle edui-default",
+            "edui-dialog-foot edui-default",
+            "edui-dialog-titlebar edui-default",
+            "edui-editor  edui-default",
+            "edui-editor-",
+            "edui-editor-bottomContainer edui-default",
+            "edui-editor-bottombar edui-default",
+            "edui-editor-icon edui-default",
+            "edui-editor-iframeholder edui-default",
+            "edui-editor-me",
+            "edui-editor-toolbarbox edui-default",
+            "edui-editor-toolbarboxinner edui-default",
+            "edui-editor-toolbarboxouter edui-default",
+            "edui-editor-toolbarm",
+            "edui-editor-wordcount edui-default",
+            "edui-ma",
+            "edui-menubutton-body edui-default",
+            "edui-popup  edui-bubble edui-default",
+            "edui-popup-body edui-default",
+            "edui-popup-content edui-default",
+            "edui-toolbar   edui-default",
+            "electall edui-default",
+            "eparator  edui-default",
+            "ertcode edui-default",
+            "ertcol edui-default",
+            "ertframe edui-default",
+            "ertimage edui-default",
+            "ertorderedli",
+            "ertparagraphbeforetable edui-default",
+            "ertrow edui-default",
+            "erttable edui-default",
+            "ertunorderedli",
+            "ertvideo edui-default",
+            "et edui-default",
+            "g edui-default",
+            "g-clo",
+            "g-label edui-default",
+            "g-upload edui-default",
+            "hadow edui-default",
+            "ic edui-default",
+            "impleupload edui-default",
+            "ize edui-default",
+            "k  edui-dialog-dragma",
+            "k  edui-dialog-modalma",
+            "k edui-default",
+            "nap",
+            "ource edui-default",
+            "pacingbottom edui-default",
+            "pacingtop edui-default",
+            "pechar",
+            "plitborder edui-default",
+            "plitbutton edui-for-autotype",
+            "plitbutton edui-for-backcolor edui-default edui-colorbutton",
+            "plitbutton edui-for-emotion edui-default",
+            "plitbutton edui-for-forecolor edui-default edui-colorbutton",
+            "plitbutton edui-for-in",
+            "plitbutton-body edui-default",
+            "plittocell",
+            "plittocol",
+            "plittorow",
+            "t edui-default",
+            "tate-di",
+            "teplain edui-default",
+            "tify edui-default",
+            "tifycenter edui-default",
+            "tifyju",
+            "tifyleft edui-default",
+            "tifyright edui-default",
+            "tom",
+            "trikethrough edui-default",
+            "tyle edui-default",
+            "ub",
+            "uper"
+          ],
+          [
+            "contentWrapper"
+          ]
+        ]
+      }
+    },
+    "page/tagTriplets": {
+      "contexts": {
+        "context2": [
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/DIV",
+            "DIV/DIV/BUTTON",
+            "DIV/DIV/DIV",
+            "DIV/DIV/H1",
+            "DIV/DIV/HR",
+            "DIV/DIV/IFRAME",
+            "DIV/DIV/SPAN",
+            "DIV/DIV/TABLE",
+            "DIV/TABLE/TBODY",
+            "TABLE/TBODY/TR",
+            "TBODY/TR/TD",
+            "TR/TD/DIV"
+          ],
+          [
+            "-/-/DIV",
+            "-/-/SCRIPT",
+            "-/DIV/DIV",
+            "DIV/DIV/BUTTON",
+            "DIV/DIV/DIV",
+            "DIV/DIV/H1",
+            "DIV/DIV/HR",
+            "DIV/DIV/SCRIPT"
+          ]
+        ]
+      }
+    }
+  }
+}
